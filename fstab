@@ -1,1 +1,13 @@
-/etc/fstab
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme0n1p2
+UUID=7a68ec94-d4c1-4b58-9440-bb5a76823b79	/         	ext4      	rw,relatime	0 1
+
+# /dev/sda1 LABEL=Samsung\134x20SSD\134x20870\134x20EVO\134x202TB
+UUID=844431834431794E	/ssd      	ntfs-3g      	rw,nosuid,nodev,user_id=0,group_id=0,allow_other,blksize=4096	0 0
+
+# /dev/nvme0n1p1
+UUID=9BDA-A472      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
