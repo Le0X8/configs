@@ -1,0 +1,11 @@
+* linguist-detectable
+hyprland/*.conf linguist-language=pkl
+bootloader/* linguist-language=shell
+systemd/* linguist-language=ini
+*.service linguist-language=ini
+locale.gen linguist-language=shell
+fstab linguist-language=shell
+hostname linguist-language=shell
+locale.conf linguist-language=shell
+sudoers linguist-language=shell
+vconsole.conf linguist-language=shell
